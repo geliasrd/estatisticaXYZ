@@ -26,12 +26,8 @@ body header h1 {
   color: var(--secundaria);
 }
 
-body header .logo h1 {
-
-}
-
-body header div button {
-  margin: 0 5px;
+body header div.botao a {
+  margin-top: 8px;
   padding: 10px 15px;
   border: 0;
   border-radius: 8px;
@@ -43,7 +39,7 @@ body header div button {
   transition: 0.3s;
 }
 
-body header div button:hover {
+body header div.botao a:hover {
   opacity: 100%;
 }
 
