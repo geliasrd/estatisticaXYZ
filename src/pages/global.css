@@ -1,0 +1,34 @@
+:root {
+    --fundo: #E4F2F0;
+    --claro: #99D8D0;
+    /* --medio: #70416D;
+    --escuro: #2B0D30; */
+    --secundaria: #008080;
+  
+    --ensinomedio: #54d68e;
+    --gradhumanas: #f8ad44;
+    --gradexatas: #69abf7;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+  }
+  
+  body{
+    background: var(--fundo);
+    -webkit-font-smoothig: antialiased;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--claro);
+  
+  }

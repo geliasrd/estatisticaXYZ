@@ -1,0 +1,40 @@
+body header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  body header div {
+    margin: 20px 50px;
+  }
+  
+  .tit h1 {
+    color: var(--gradhumanas);
+  }
+
+  body header .tit {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  body header .tit img {
+    height: 38px;
+    width: 38px;
+    margin-right: 10px;
+  }
+
+  body header div button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--gradhumanas);
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }

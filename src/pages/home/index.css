@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+body header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body header div {
+  margin: 20px 50px;
+}
+
+body header .tit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: baseline;
+  flex-direction: row;
+}
+
+body header .tit img {
+  height: 38px;
+  width: 38px;
+  margin-right: 10px;
+}
+
+body header h1 {
+  color: var(--secundaria);
+}
+
+body header .logo h1 {
+
+}
+
+body header div button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--secundaria);
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  opacity: 80%;
+  transition: 0.3s;
+}
+
+body header div button:hover {
+  opacity: 100%;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.texto {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.texto h1 {
+  color: var(--secundaria);
+  opacity: 80%;
+}
+
+.texto h3 {
+  margin-top: 38px;
+  text-align: justify;
+  width: 688px;
+}
+
+body .gradecursos {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 50px 0;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--claro);
+}
+
+body .bloco {
+  display: flex;
+  transition: 0.4s;
+  outline: none;
+  border-radius: 8px;
+  color: black;
+  margin: 0 50px;
+  transform: translateY(-130px);
+}
+
+body .bloco:hover {
+  transform: translateY(-145px);
+}
+
+body .bloco a {
+  display: flex;
+  padding: 40px 20px;
+  height: 550px;
+  width: 360px;
+}
+
+body .bloco a .curso {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  /* transition: 0.4s; */
+}
+
+body .bloco a .curso h1{
+  /* border: 1px solid white; */
+  font-size: 38px;
+  -webkit-text-stroke: 1.8px #eee;
+  color: transparent;
+}
+
+body .bloco a .curso p {
+  color: #eee;
+}
+
+body .bloco a .curso ul {
+  color: #eee;
+}
+
+body .bloco a .curso ul .sub {
+  margin-left: 18px;
+}
+
+#ensinomedio {
+  background-color: var(--ensinomedio);
+
+}
+
+#gradhumanas {
+  background-color: var(--gradhumanas);
+}
+
+#gradexatas {
+  /* border: 2px solid var(--gradexatas); */
+  background-color: var(--gradexatas);
+}
+
+footer {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  border: 0;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: space-between;   
+  background-color: var(--fundo);
+}
+
+footer div {
+  margin: 0 70px;
+}
+
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style:none;
+  padding: 0;
+}
+
+footer ul li a {
+  display: flex;
+  flex: 1;
+  margin: 50px 20px;
+}
+
+footer ul li a img {
+  height: 40px;
+  width: 40px;
+  transition: 0.3s;
+  opacity: 50%;
+}
+
+footer ul li a img:hover {
+  opacity: 100%;
+}
