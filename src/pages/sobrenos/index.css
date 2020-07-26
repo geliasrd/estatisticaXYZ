@@ -96,9 +96,24 @@ body {
 }
 
 #nos .grade .cont p {
-  margin-top: 18px;
+/* mudar depois a margin para 18 */
+  margin-top: 38px;  
+  align-self: center;
+  text-align: center;
+  transform: translateY(-38px);
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+#nos .grade .cont .cargo {
+  margin-top: 8px;
   align-self: center;
   text-align: justify;
+  transform: translateY(-38px);
+  color: whitesmoke;
+  /* -webkit-text-stroke: 1.8px whitesmoke; */
+  font-weight: 800;
+  font-size: 30px;
 }
 
 #nos .grade #luka {
@@ -167,10 +182,12 @@ body {
 
 #nos .grade .cont h2{
     text-align: center;
-    font-size: 32px;    
+    font-size: 34px;    
     -webkit-text-stroke: 1.8px #eee;
     color: transparent;
     transform: translateY(-48px);
+    height: 75px;
+    width: 320px;
   }
 
 #nos .grade .contato {
