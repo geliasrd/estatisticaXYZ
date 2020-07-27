@@ -49,13 +49,38 @@ body header {
     flex-direction: column;
   }
 
+  .container .arvore a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+  }
+
   .container .arvore li {
-    height: 50px;
-    width: 50px;
-    margin: 0 0 8px 0;
-    background: linear-gradient(to right, var(--secundaria), #e0e0e0) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border: 2px solid var(--gradhumanas);
+    border-radius: 50%;
+    margin: 0 0 8px 18px;
+    color: black;
+    background: #fff;
     list-style-position: inside;
-    color: transparent;
+    list-style: none;
+  }
+
+  .container .arvore .cap{
+    height: 45px;
+    width: 45px;
+    border: 2px solid var(--gradhumanas);
+    border-radius: 50%;
+    margin: 0 0 8px 8px;
+    color: black;
+    background: #fff;
+    list-style-position: inside;
+    list-style: none;
   }
 
   .container .texto {
