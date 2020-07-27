@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700&display=swap');
+
 body header {
     display: flex;
     justify-content: space-between;
@@ -31,6 +33,8 @@ body header {
     cursor: pointer;
     color: #fff;
     font-size: 16px;
+    opacity: 100%;
+    transition: 0.3s;
   }
   
   body {
@@ -38,3 +42,153 @@ body header {
     flex: 1;
     flex-direction: column;
   }
+
+  button:hover {
+    background-color: #f3a111;
+  }
+
+
+.contexto {
+  display: flex;
+  /* width: 100vw; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contexto h1 {
+  color: var(--secundaria);
+  opacity: 80%;
+}
+
+.contexto h3 {
+  margin-top: 38px;
+  text-align: justify;
+  width: 808px;
+}
+
+.conteudos {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.conteudos .conteudo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 68%;
+  align-items: center;
+  margin: 10px;
+  
+}
+
+.conteudos .conteudo .titulo {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex: 1;
+  height: 100px;
+  width: 1200px;
+  align-items: center;
+  justify-content: start;
+  background: var(--secundaria);
+  border-radius: 40px 28px 28px 40px ;
+  border: 0;
+}
+
+.conteudos .conteudo .titulo h1 {
+  font-size: 86px;
+  -webkit-text-stroke: 1.8px #eee;
+  color: transparent;
+  margin-left: 38px;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+.conteudos .conteudo .titulo h2 {
+  -webkit-text-stroke: 2.2px #eee;
+  font-size: 178px;
+  color: transparent;
+}
+
+.conteudos .conteudo .titulo .numero{
+  display: flex;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  
+
+  background: var(--gradhumanas);
+  border-radius: 28px 0px 0px 28px;
+}
+.conteudos .conteudo .topicos {
+  display: flex;
+  background-color: var(--claro);
+  width: 1000px;
+  /* height: 300px; */
+  border-radius: 0 0 18px 18px;
+  padding: 20px 0 20px 30px;
+}
+
+.conteudos .conteudo .topicos ol {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+
+.conteudos .conteudo .topicos ol li a{
+  font-size: 22px;
+  color: #eee;
+  font-weight: 500;
+}
+
+footer {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  border: 0;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: space-between;   
+  background-color: var(--fundo);
+}
+
+footer div {
+  margin: 0 70px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style:none;
+  padding: 0;
+}
+
+footer ul li a {
+  display: flex;
+  flex: 1;
+  margin: 50px 20px;
+}
+
+footer ul li a img {
+  height: 40px;
+  width: 40px;
+  transition: 0.3s;
+  opacity: 50%;
+}
+
+footer ul li a img:hover {
+  opacity: 100%;
+}

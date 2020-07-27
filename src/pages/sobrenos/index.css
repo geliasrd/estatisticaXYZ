@@ -55,7 +55,6 @@ body {
 
 .texto {
     display: flex;
-    width: 100vw;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -201,7 +200,6 @@ body {
 .agradecimentos {
     background-color: var(--secundaria);
     display: flex;
-    width: 100vw;
     flex-direction: column;
     align-items: center;
     text-align: center;
